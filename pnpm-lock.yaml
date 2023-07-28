@@ -13,6 +13,9 @@ devDependencies:
   '@unocss/nuxt':
     specifier: ^0.53.6
     version: 0.53.6(postcss@8.4.27)(vite@4.4.6)(webpack@5.88.2)
+  '@unocss/preset-rem-to-px':
+    specifier: ^0.53.6
+    version: 0.53.6
   nuxt:
     specifier: ^3.6.5
     version: 3.6.5(@types/node@18.17.0)
@@ -1683,6 +1686,12 @@ packages:
     dependencies:
       '@unocss/core': 0.53.6
       '@unocss/extractor-arbitrary-variants': 0.53.6
+    dev: true
+
+  /@unocss/preset-rem-to-px@0.53.6:
+    resolution: {integrity: sha512-b7DLyzxzmj0NTey4vWXnXgE4yEEDyQbZEnS8tBooLz/Q9+Lf179TT5L7YjKS+a+nNgUb/CV4giyO9c0DoP/9og==}
+    dependencies:
+      '@unocss/core': 0.53.6
     dev: true
 
   /@unocss/preset-tagify@0.53.6:

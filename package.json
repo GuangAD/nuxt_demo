@@ -13,6 +13,7 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.0",
     "@unocss/nuxt": "^0.53.6",
+    "@unocss/preset-rem-to-px": "^0.53.6",
     "nuxt": "^3.6.5"
   }
 }

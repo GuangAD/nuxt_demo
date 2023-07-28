@@ -1,6 +1,12 @@
 // uno.config.ts
-import { defineConfig } from 'unocss'
+import { defineConfig, presetAttributify, presetUno } from 'unocss'
+import presetRemToPx from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
-  // ...UnoCSS options
+  presets: [
+    presetUno(),
+    presetAttributify(),
+    presetRemToPx(),
+  ],
+
 })
