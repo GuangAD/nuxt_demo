@@ -4,5 +4,5 @@ export const useUser = defineStore("user", {
   state() {
     return {};
   },
-  // persist: true,
+  persist: true,
 });
