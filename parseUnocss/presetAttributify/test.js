@@ -9,13 +9,13 @@
 //   transformerVariantGroup,
 // } from "unocss";
 
-const { presetUno } = require('unocss')
+const { presetAttributify } = require('unocss')
 const fs = require('fs')
 const path = require('path')
-const presetUnocontent = JSON.stringify(presetUno())
+const presetAttributifycontent = JSON.stringify(presetAttributify())
 // console.log(JSON.stringify(presetUno()));
-console.log(path.join(__dirname, './presetUno.json'));
-fs.writeFileSync(path.join(__dirname, './presetUno.json'), presetUnocontent, (error) => {
+console.log(path.join(__dirname, './presetAttributify.json'));
+fs.writeFileSync(path.join(__dirname, './presetAttributify.json'), presetAttributifycontent, (error) => {
   console.log(error);
 })
 // fs.writeFileSync('123.txt', presetUnocontent, (error) => {

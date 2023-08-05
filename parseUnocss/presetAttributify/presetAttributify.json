@@ -1,0 +1,33 @@
+{
+  "name": "@unocss/preset-attributify",
+  "enforce": "post",
+  "variants": [
+    {
+      "name": "attributify"
+    }
+  ],
+  "extractors": [
+    {
+      "name": "@unocss/preset-attributify/extractor"
+    }
+  ],
+  "options": {
+    "strict": false,
+    "prefix": "un-",
+    "prefixedOnly": false,
+    "nonValuedAttribute": true,
+    "ignoreAttributes": [
+      "placeholder",
+      "fill",
+      "opacity",
+      "stroke-opacity"
+    ]
+  },
+  "autocomplete": {
+    "extractors": [
+      {
+        "name": "attributify"
+      }
+    ]
+  }
+}
