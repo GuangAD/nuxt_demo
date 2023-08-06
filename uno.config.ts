@@ -10,6 +10,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from "unocss";
+import presetWind from '@unocss/preset-wind'
 
 export default defineConfig({
   shortcuts: [
@@ -45,6 +46,7 @@ export default defineConfig({
     }
   ],
   presets: [
+    presetWind(),
     presetUno(),
     presetAttributify(),
     presetIcons(),

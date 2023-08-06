@@ -14,6 +14,7 @@
     "@types/node": "^18.17.0",
     "@unocss/nuxt": "^0.53.6",
     "@unocss/preset-rem-to-px": "^0.53.6",
+    "@unocss/preset-wind": "^0.54.1",
     "nuxt": "^3.6.5"
   },
   "dependencies": {
