@@ -15,7 +15,9 @@
     "@unocss/nuxt": "^0.53.6",
     "@unocss/preset-rem-to-px": "^0.53.6",
     "@unocss/preset-wind": "^0.54.1",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "unocss": "^0.54.2",
+    "unocss-preset-scalpel": "^1.2.7"
   },
   "dependencies": {
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
