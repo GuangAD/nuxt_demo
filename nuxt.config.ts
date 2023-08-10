@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
   ],
+  runtimeConfig:{
+    public: {}
+  },
+  app: {
+    head:{}
+  }
   // tailwindcss: {
   //   cssPath: '~/assets/css/tailwind.css',
   //   configPath: 'tailwind.config',
