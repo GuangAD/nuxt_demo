@@ -1,0 +1,51 @@
+---
+- name: 首页
+  children:
+    - key: viewIndex
+      name: 查看云任务
+- name: 粮库管理
+  children:
+    - key: viewGrainWarehouseModel
+      name: 查看
+    - key: createGrainWarehouseModel
+      name: 创建粮库
+    - key: deleteGrainWarehouseModel
+      name: 删除粮库
+- name: 粮仓管理
+  children:
+    - key: viewGrainStorehouseModel
+      name: 查看粮仓
+    - key: createGrainStorehouseModel
+      name: 创建粮仓
+    - key: editGrainStorehouseModel
+      name: 编辑粮仓
+    - key: deleteGrainStorehouseModel
+      name: 删除粮仓
+    - key: createCamera
+      name: 新增摄像头
+    - key: editCamera
+      name: 编辑摄像头
+    - key: deleteCamera
+      name: 删除摄像头
+- name: 层级
+  children:
+    - key: viewHierarchyModel
+      name: 查看层级
+    - key: createHierarchyModel
+      name: 创建层级
+    - key: editHierarchyModel
+      name: 编辑层级
+    - key: deleteHierarchyModel
+      name: 删除层级
+    - key: create_UserModel
+      name: 创建用户
+    - key: edit_UserModel
+      name: 编辑用户
+    - key: delete_UserModel
+      name: 删除用户
+- name: 设备
+  children:
+    - key: viewEquipment
+      name: 查看层级
+    - key: createEquipment
+      name: 创建层级
